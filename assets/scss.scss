@@ -1,0 +1,58 @@
+/*SCSS*/
+$red: #ff3633;
+$white: #FFF;
+$dark: #212529;
+
+/*SCSS inheritance*/
+%bg-color {
+    background-color: $red;
+}
+
+/*SCSS Nesting*/
+body {
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    .navbar {
+        background-color: $red;
+      }
+      .navbar-toggler {
+        color: $white;
+        background-color: $dark;
+    }
+  
+    .navbar-toggler-icon {
+        color: $white;
+    }
+  
+    .navbar-brand {
+        color: $white;
+    }
+  
+    .nav-link {
+      color: $white;
+    }
+    
+    #footer-text {
+      text-align: center;
+    }
+  
+  .footer{
+      @extend %bg-color;
+      position: relative;
+      height: 40px;
+      
+  }
+  }
+
+
+  /*@media*/
+@media (max-width: 600px){
+    body {
+        font-size: 0.8rem;
+    }
+    h1,h2 {
+        font-size: 1.4rem;
+    }
+}
+
