@@ -1,11 +1,12 @@
 /*SCSS*/
-$red: #ff3633;
 $white: #FFF;
 $dark: #212529;
+$watermelon: #ff3B3F;
+$bg: #EFEFEF;
 
 /*SCSS inheritance*/
 %bg-color {
-    background-color: $red;
+    background-color: $bg;
 }
 
 /*SCSS Nesting*/
@@ -14,11 +15,11 @@ body {
     text-align: center;
     font-family: 'Russo One', sans-serif;
     .navbar {
-        background-color: $red;
+        background-color: $watermelon;
       }
       .navbar-toggler {
         color: $white;
-        background-color: $dark;
+        background-color: $watermelon;
     }
   
     .navbar-toggler-icon {
