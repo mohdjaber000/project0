@@ -1,0 +1,43 @@
+/*SCSS*/
+/*SCSS inheritance*/
+/*SCSS Nesting*/
+body {
+  padding-top: 60px;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+}
+
+body .navbar {
+  background-color: #212529;
+}
+
+body .navbar-toggler {
+  color: #FFF;
+  background-color: #FFF;
+}
+
+body .navbar-toggler-icon {
+  color: #ff3B3F;
+}
+
+body .navbar-brand {
+  color: #ff3B3F;
+}
+
+body .nav-link {
+  color: #FFF;
+}
+
+/*@media*/
+@media (max-width: 600px) {
+  body {
+    font-size: 0.8rem;
+  }
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+  .navbar-brand {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=scss.css.map */

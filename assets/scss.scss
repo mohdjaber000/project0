@@ -15,35 +15,26 @@ body {
     text-align: center;
     font-family: 'Russo One', sans-serif;
     .navbar {
-        background-color: $watermelon;
+        background-color: $dark;
       }
       .navbar-toggler {
         color: $white;
-        background-color: $watermelon;
+        background-color: $white;
     }
   
     .navbar-toggler-icon {
-        color: $white;
+        color: $watermelon;
     }
   
     .navbar-brand {
-        color: $white;
+        color: $watermelon;
     }
   
     .nav-link {
       color: $white;
     }
     
-    #footer-text {
-      text-align: center;
-    }
   
-  .footer{
-      @extend %bg-color;
-      position: relative;
-      height: 40px;
-      
-  }
   }
 
 
@@ -54,6 +45,9 @@ body {
     }
     h1,h2 {
         font-size: 1.4rem;
+    }
+    .navbar-brand {
+        font-size: 0.8rem;
     }
 }
 
